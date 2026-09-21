@@ -36,7 +36,7 @@ Three tables, including a self-referencing relationship for reporting lines:
 - Handling open-ended date ranges with `COALESCE(TerminationDate, GETDATE())`
 
 ## How to Run
-1. Open `02_hr_attrition_analysis.sql` in SQL Server Management Studio.
+1. Open `hr_attrition_analysis.sql` in SQL Server Management Studio.
 2. Execute the full script (F5) — it creates the `HRAnalytics` database, builds the schema, and loads sample data.
 3. Run each query in Section 3 individually to see the analysis output.
 
